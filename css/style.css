@@ -1,0 +1,386 @@
+
+*{
+    margin: 0%;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+}
+
+/* NAV */
+header{
+    position: sticky;
+    top: 0px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+nav img{
+    width: 130px;
+    height: 100px;
+    margin-left: 30px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+/* INDEX */
+.foco{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.foco h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+}
+.foco h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.index{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+}
+.index h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.index p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    align-self: center;
+    justify-self: flex-start;
+    line-height: 2;
+    margin-right: 200px;
+}
+.index a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.index img{
+    height: 100%;
+    width: 100%;
+}
+.mision{
+    margin: 90px;
+}
+/* ACERCA DE */
+
+.acerca{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.acerca h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    line-height: 1.5;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 174, 187);
+    align-self: center;
+    justify-content: center;
+}
+.acerca img{
+    width: 100%;
+    height: 100%;
+}
+.nosotros{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 800px;
+}
+.nosotros div{
+    height: 100%;
+}
+.nosotros h3{
+    background-color: salmon;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    height: 100%;
+}
+.nosotros p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: white;
+    height: 100%;
+    margin: 50px 50px 0px 50px;
+    line-height: 2;
+    height: 100%;
+}
+#vacio{
+    background-color: pink;
+    height: 100%
+}
+.objetivo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+}
+.objetivo div{
+    background-color: #7771d6;
+}
+.objetivo img{
+    position: cover;
+    width: 100%;
+}
+.objetivo p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height: 700px;
+    margin: 40px;
+}
+.historia{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 750px;
+}
+.nuestra{
+    height: 100%;
+    background-color: salmon;
+}
+.nuestra h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+}
+.idea{
+    background-color: pink;
+    height: 100%;
+}
+.idea p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 50px;
+    line-height: 2em;
+}
+
+/* UNIRSE */
+.unirse{
+    display: flex;
+}
+.unirse div{
+    width: 50%;
+    height: 600px;
+    background-color: #7771d6;
+}
+.unirse h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    margin: 80px 20px 30px 20px;
+    box-sizing: border-box;
+}
+.unirse p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    line-height: 2em;
+    margin-left: 40px;
+    margin-right:40px;
+}
+.unirse img{
+    width: 100%;
+    height: 100%;
+}
+.unete{
+    display: flex;
+}
+.unete h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 25%;
+    height: 600px;
+    background-color: salmon;
+}
+.unete div{
+    width: 65%;
+    height: 600px;
+    background-color: white;
+}
+.unete h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 150px 150px 40px 150px;
+    box-sizing: border-box;
+}
+.unete ul{
+    margin-left: 110px;
+}
+.unete li{
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 25px;
+}
+.unete button{
+    margin-left: 180px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 450px;
+}
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+footer h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer img:hover{
+    transform: scale(1.2);
+    transition: 3ms;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+.suscribite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email{
+    border: 2px solid pink;
+    width: 350px;
+    height: 30px;
+}
+#boton{
+    height: 40px;
+    border: 2px solid purple;
+}
+/* MEDIA QUERY */
+@media (max-width: 1310px){
+    .nosotros{
+        grid-template-rows: 1fr;
+    }
+    .historia{
+        grid-template-rows: 1fr;
+    }
+    .nosotros h3{
+        font-size: 60px;
+    }
+    .nuestra h3{
+        font-size: 60px;
+    }
+}
+@media (max-width: 1170px){
+    .index p{
+        margin-right: 0px;
+    }
+    .mision{
+        margin: 60px;
+    }
+}
+@media (max-width: 800px){
+    .index{
+        grid-template-columns: 1fr;
+    }
+    .acerca{
+        grid-template-columns: 1fr;
+    }
+    #vacio{
+        display: none;
+    }
+    .acerca div{
+        width: 100%;
+    }
+    .nosotros{
+        grid-template-columns: 1fr;
+    }
+    .objetivo{
+        grid-template-columns: 1fr;
+    }
+    .historia{
+        grid-template-columns: 1fr;
+    }
+    .unirse{
+        flex-direction: column;
+    }
+    .unirse div{
+        width: 100%;
+    }
+    .unete{
+        flex-direction: column;
+    }
+    .unete div{
+        width: 100%;
+    }
+    .unete h3{
+        width: 100%;
+        height: 100px;
+    }
+}
+@media (max-width: 650px){
+    .unete h4{
+        margin: 0px;
+    }
+    .unete ul{
+        margin: 0px;
+    }
+}
